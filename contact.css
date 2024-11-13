@@ -1,0 +1,77 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #2b2d42, #8d99ae);
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.contacth {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contactp {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Social Links Styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.8em;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Social Media Colors */
+.instagram { background: #C13584; }
+.linkedin { background: #0077b5; }
+.twitter { background: #1DA1F2; }
+.facebook { background: #4267B2; }
+.github { background: #333; }
+.gmail { background: #D14836; }
+
+/* Hover Effects */
+.social-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .contacth {
+        font-size: 28px;
+    }
+
+    .contactp {
+        font-size: 16px;
+    }
+
+    .social-icon {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
